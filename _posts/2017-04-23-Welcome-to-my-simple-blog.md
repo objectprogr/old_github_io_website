@@ -21,4 +21,4 @@ First This is link to my board on trello (I dont know yet if you can write somet
 <hr>
 What more? I dont know ;) Ok, I will show you my funny icon, which I added to windows project folder icon :)\\
 <img src="https://image.flaticon.com/icons/png/128/390/390251.png">\\
-_Icon is from this site: [www.flaticon.com](href="http://www.flaticon.com")_
+_Icon is from this site: [www.flaticon.com](http://www.flaticon.com)_
