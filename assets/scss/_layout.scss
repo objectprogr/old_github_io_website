@@ -12,6 +12,10 @@ body {
   height: 100%;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .clearfix {
   &:before {
     content: " ";
