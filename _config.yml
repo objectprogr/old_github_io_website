@@ -12,8 +12,8 @@ baseurl: ""
 
 google_analytics: UA-XXXXX-XX
 repo: https://github.com/objectprogr/objectprogr.github.io
-disqus_shortname: "hnbloggithubdsadasasd"
-twitter_username: "HeiswayiNrird"
+disqus_shortname: "objectprogr"
+#twitter_username: "HeiswayiNrird"
 comments: true
 
 # Build settings
@@ -37,17 +37,17 @@ author:
   job      : "I try learn to programming"
   bio      : "Please for feedback about all what I do and what I write."
   thumb    : /images/author.jpg
-  email    : hnrird@gmail.com
-  url      : http://heiswayi.github.io
-  github   : http://github.com/heiswayi
-  twitter  : http://twitter.com/HeiswayiNrird
-  facebook : https://www.facebook.com/heiswayi.nrird
-  linkedin : http://linkedin.com/in/nrird
+  email    : objectprogr@gmail.com
+  url      : http://objectprogr.github.io
+  github   : http://github.com/objectprogr
+ # twitter  : http://twitter.com/HeiswayiNrird
+  #facebook : https://www.facebook.com/heiswayi.nrird
+  #linkedin : http://linkedin.com/in/nrird
 
 # social settings
 og_locale: "en_US"
-twitter_card: "summary_large_image"
-twitter_site: "@HeiswayiNrird"
+#twitter_card: "summary_large_image"
+#twitter_site: "@HeiswayiNrird"
 
 
 # navbar pages
