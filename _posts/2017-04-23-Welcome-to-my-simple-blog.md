@@ -15,8 +15,8 @@ I will be write here all about my project, my learning, my troubles, and questio
 Main site with few buttons, example: Search animal, list all animal, list animal according type, etc.,
 Add/remove animal,
 Save all in browser local storage. If I find new interesting features I will add this to above list.
-First This is link to my board on trello (I dont know yet if you can write something for me on my board, if yes, please let me know :) ) --> <a href="https://trello.com/b/OzRQM5tX/javascript-animalshelter">Trello</a>
+First This is link to my board on trello (I dont know yet if you can write something for me on my board, if yes, please let me know :) ) --> <a href="https://trello.com/b/OzRQM5tX/javascript-animalshelter" target="blank">Trello</a>
 <hr>
-What more? I dont know ;) Ok, I will show you my funny icon, which I added to windows project folder icon :) 
-<img src="https://image.flaticon.com/icons/png/128/390/390251.png">
-<i>Icon is from this site: http://www.flaticon.com</i>
+What more? I dont know ;) Ok, I will show you my funny icon, which I added to windows project folder icon :)\\
+<img src="https://image.flaticon.com/icons/png/128/390/390251.png">\\
+_Icon is from this site: <a href="http://www.flaticon.com"></a>_
