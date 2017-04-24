@@ -1,7 +1,11 @@
 ---
 layout: default
 ---
-
+  <ul class="tags">
+  {% for tag in page.tags %}
+    <li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
+  {% endfor %}
+</ul>
 <article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
@@ -11,11 +15,6 @@ layout: default
     {{ content }}
     {% include post-share.html %}
   </div>
-  <ul class="tags">
-  {% for tag in page.tags %}
-    <li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
-  {% endfor %}
-</ul>
 </article>
 
 {% include comments.html %}
