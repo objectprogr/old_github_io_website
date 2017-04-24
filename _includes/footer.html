@@ -2,4 +2,13 @@
   <div class="container">
     <small class="block">&lt;/&gt; <a href="http://github.com/objectprogr" target="blank" title="my github">My github</a>. | <i class="fa fa-copyright"></i> {{ site.time | date: '%Y' }} {{ site.author.name }}  | Theme create by <a href="https://heiswayi.nrird.com/" target="blank">Heiswayi Nrird</a></small>
   </div>
+  <div>
+    {% if tags %}
+<div class="tag-cloud tag-cloud-small" id="Tags">
+  {% for tag in tags %}
+    <a id="{{ tag | slugify }}" class="tag-anchor" href="{{ site.url }}{{ site.baseurl }}/tagged#{{ tag | slugify }}"><i class="fa fa-tag muted"></i> {{ tag }}</a>
+  {% endfor %}
+</div>
+{% endif %}
+  </div>
 </footer>
