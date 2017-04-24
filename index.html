@@ -24,10 +24,5 @@ title: Home
     {% endfor %}
   </div>
 </section>
-{% if tags %}
-<div class="tag-cloud tag-cloud-small" id="Tags">
-  {% for tag in tags %}
-    <a id="{{ tag | slugify }}" class="tag-anchor" href="{{ site.url }}{{ site.baseurl }}/tagged#{{ tag | slugify }}"><i class="fa fa-tag muted"></i> {{ tag }}</a>
-  {% endfor %}
-</div>
-{% endif %}
+
+
