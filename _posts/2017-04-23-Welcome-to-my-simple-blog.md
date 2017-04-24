@@ -5,6 +5,7 @@ comments: true
 description: "Welcome to my simple blog - first post"
 keywords: "welcome"
 author: objectprogr
+tags: jekyll
 ---
 
 ### Few words about me
