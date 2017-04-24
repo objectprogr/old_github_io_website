@@ -302,3 +302,34 @@ hr {
   }
 }
 
+//taggs
+.post {
+    .tagged {
+        margin-top: 1rem;
+    }
+
+    .tagged a {
+        border: 1px solid #ddd;
+        padding: 2px 5px;
+        background: transparent;
+        display: inline-block;
+        color: #999;
+        outline: 0;
+        text-decoration: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        font-size: 70%;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    .tagged a:hover {
+        cursor: pointer;
+        border: 1px solid #555;
+        background: #444;
+        color: #fff;
+    }
+}

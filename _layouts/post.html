@@ -4,6 +4,23 @@ layout: default
 
 <article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
+
+    {% assign post = page %}
+		{% if post.tags.size > 0 %}
+
+		{% assign tags_content = "" %}
+		{% for post_tag in post.tags %}
+			{% capture tags_content_temp %}
+				{{ tags_content }}<a href="{{ site.url }}{{ site.baseurl }}/tagged#{{ post_tag | slugify }}"><i class="fa fa-hashtag muted" aria-hidden="true"></i>{{ post_tag }}</a>
+			{% endcapture %}
+			{% assign tags_content = tags_content_temp %}
+		{% endfor %}
+
+    <div class="tagged">
+			{{ tags_content }}
+		</div>
+	{% endif %}
+  
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
   </header>
