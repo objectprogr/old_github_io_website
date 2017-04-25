@@ -3,7 +3,7 @@ layout: post
 title: "Why worth it start from reading documentation?"
 tags: jekyll learning documentation coding
 ---
-##Why worth it start from reading documentation?
+## Why worth it start from reading documentation?
 
 I often started from writing code without reading documentation, beacuse I'm impatient and I know about it ;)
 By my impatient I have later many trouble even with basics things, fresh example with jekyll and my simple blog.
@@ -12,14 +12,14 @@ Ok, I instlled it and in localhost on my Windows I customize all. I was very hap
 {: .alert .alert-info .text-justify}
 <hr>
 
-##First steps in Java
+## First steps in Java
 
 This same situation I had when I learned Java. I imaginations some project and I started coding without reading documentation. All things which I needed I looking for in google. Copy paste, copy paste and so was my work. Ofcourse I do not had no idea about basic things. If I find good solution to my project I did the copy and paste, but I do not had idea what does it do. Today I have very big deficiences in knowledge. Several times I tried understand what are objects, how to ues them. To this day I do not understand them, although I would very much like to. 
 However I read a lot about Java (books, articles, tutorials etc.) and I must to state that many things I can't understand. I do not know what the reason is. Books for me are written difficult language to understand. Soon I want back to Java and I will describe my progress in learning, maybe this help me with difficult matters.
 {: .alert .alert-info .text-justify}
 <hr>
 
-##Advantages documentation reading
+## Advantages documentation reading
 + we know the basics,
 + we know what to expect,
 + easier start,
