@@ -25,6 +25,11 @@ title: Tagged
 {% if tags %}
 <div class="tag-cloud tag-cloud-small" id="Tags">
   {% for tag in tags %}
+	<style>
+	#{{ tag | slugify }}{
+		text-align: center;
+	}
+	</style>
     <a class="tag-anchor" href="#{{ tag | slugify }}"><i class="fa fa-tag muted" aria-hidden="true"></i> {{ tag }}</a>
   {% endfor %}
 </div>
