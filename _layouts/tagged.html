@@ -23,11 +23,11 @@ title: Tagged
 {% endfor %}
 
 {% if tags %}
-<div class="tag-cloud tag-cloud-small tagged" style="text-align: center;" id="Tags">
+<div class="tagged" style="text-align: center;" id="Tags">
 
   {% for tag in tags %}
 
-    <a class="tag-anchor" href="#{{ tag | slugify }}"><i class="fa fa-tag muted" aria-hidden="true"></i> {{ tag }}</a>
+    <a class="taged" href="#{{ tag | slugify }}"><i class="tagged" aria-hidden="true"></i> {{ tag }}</a>
   {% endfor %}
 </div>
 {% endif %}
