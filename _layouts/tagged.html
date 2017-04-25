@@ -27,7 +27,7 @@ title: Tagged
 
   {% for tag in tags %}
 
-    <a class="taged" href="#{{ tag | slugify }}"><i class="tagged" aria-hidden="true"></i> {{ tag }}</a>
+    <a class="tag-anchor" href="#{{ tag | slugify }}"><i class="fa fa-tag muted" aria-hidden="true"></i> {{ tag }}</a>
   {% endfor %}
 </div>
 {% endif %}
