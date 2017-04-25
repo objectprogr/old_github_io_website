@@ -335,5 +335,6 @@ hr {
 }
 /* To center images */
 .center-image {
-    text-align: center;
+    margin: 0 auto;
+    display: block;
 }
