@@ -2,7 +2,6 @@
 layout: post
 title: "Welcome to my simple blog"
 comments: true
-description: "Welcome to my simple blog - first post"
 keywords: "welcome"
 author: objectprogr
 tags: jekyll
