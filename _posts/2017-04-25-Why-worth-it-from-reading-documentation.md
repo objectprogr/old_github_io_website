@@ -7,7 +7,7 @@ tags: jekyll learning documentation coding
 
 I often started from writing code without reading documentation, beacuse I'm impatient and I know about it ;)
 By my impatient I have later many trouble even with basics things, fresh example with jekyll and my simple blog.
-I started from instlled jekyll on Windows and in localhost default site work good, ok. I looking for simple theme, and I found this what I wanted (Thinkspace created by [Heiswayi Nrird](https://heiswayi.nrird.com/)). Here I would like to thank the creator, beacuse this theme is perfect for me!
+I started from instlled jekyll on Windows and in localhost default site work good, ok. I looking for simple theme, and I found this what I wanted (Thinkspace created by [Heiswayi Nrird](https://heiswayi.nrird.com/)). **NOTE:** Here I would like to thank the creator, beacuse this theme is perfect for me! <br />
 Ok, I instlled it and in localhost on my Windows I customize all. I was very happy so I created commit and push this to my github repository. What was my suprise when I go to [my website](https://objectprogr.github.io) and I see default layout without my earlier customizations. I lost a few hours looking for a solutions. Ok, I finded solution and I fixed this, but if I were first read [documentation](https://jekyllrb.com/docs/home/) it would save a lot of time. Finally ( already after basic customize my simple blog) I read whole documentation and I'm proud with me, and I do not regret beacuse I have learned many very interesting things.
 {: .alert .alert-info .text-justify}
 <hr>
