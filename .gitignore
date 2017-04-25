@@ -1,4 +1,5 @@
 _site/
+!_site/assets/css/main.css
 ExamplesPosts/
 .sass-cache/
 .bundle/
