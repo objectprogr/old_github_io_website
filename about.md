@@ -11,5 +11,5 @@ Few facts of me:
 + I like programming and technology,
 + my real name is Michael.
 
-![My helpful screenshot]({{ site.url }}/assets/author.png){: .center-image }
+![My helpful screenshot]({{ site.url }}/assets/images/author.png){: .center-image }
 
