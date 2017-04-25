@@ -308,7 +308,7 @@ hr {
         margin-top: 1rem;
     }
 
-    .tagged a {
+    .tagged a .tag-anchor{
         border: 1px solid #ddd;
         padding: 2px 5px;
         background: transparent;
@@ -326,7 +326,7 @@ hr {
         border-radius: 3px;
     }
 
-    .tagged a:hover {
+    .tagged a:hover .tag-anchor{
         cursor: pointer;
         border: 1px solid #555;
         background: #444;
@@ -337,4 +337,7 @@ hr {
 .center-image {
     margin: 0 auto;
     display: block;
+}
+.tag-cloud .tag-cloud-small{
+  text-align: center;
 }
