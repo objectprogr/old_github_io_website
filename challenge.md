@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My challenge
+title: Challenge
 permalink: /challenge/
 ---
 <h1>Test</h>
