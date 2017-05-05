@@ -10,7 +10,7 @@ How thanks objects I can simplify my code. Code is more flexible. Introduction o
 Earlier I tried what are they objects, but I did can't. This course in very simple way explain me these issues.
 {: .alert .alert-info .text-justify}
 ## Object and reference
-```javascript
+```java
 Car audi = new Car();
 audi.doors = 4;
 audi.color = "red";
@@ -22,7 +22,7 @@ The reference is audi because it allows identify specified object (car).
 Example:
 Whe have a two objects Car class:
 
-```javascript
+```java
 Car opel = new Car();
 opel.doors = 2;
 Car bmw = new Car();
@@ -31,14 +31,14 @@ bmw.doors = 4;
 And thanks the reference computer (compiler) can find the place where it is saved specific object (car) in computer memory. The object which we want use.
 {: .alert .alert-info .text-justify}
 Example:
-```javascript
+```java
 System.out.println(bmw.doors);
 ```
 And computer know what Car class object to use. So in this case bmw. 
 
 ## Constructor
 Constructor must have same name as class.
-```javascript
+```java
 class Car(){
 	int doors;
 	String color;
@@ -51,7 +51,7 @@ class Car(){
 }
 ```
 And, now we want create new object Car class:
-```javascript
+```java
 Car opel = new Car(4, "black");
 ```
 Thnaks the constructor we can create new object using the less code. Great!
