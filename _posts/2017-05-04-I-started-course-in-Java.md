@@ -17,4 +17,4 @@ Except that course have a quizzes that help consolidate knowledge. Theory is min
 I go back to learn :) 
 
 ## Progress
-+ 03.04.2017 r. - finished 4 chapters 
+- [x] 03.04.2017 r. - finished 4 chapters 
