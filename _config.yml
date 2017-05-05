@@ -56,7 +56,7 @@ navbar:
     title: About
   - slug : blog
     title: Blog
-  - slug : challenge
-    title: Challenge
+  - slug : progress
+    title: Progress
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
