@@ -10,11 +10,11 @@ How thanks objects I can simplify my code. Code is more flexible. Introduction o
 Earlier I tried what are they objects, but I did can't. This course in very simple way explain me these issues.
 {: .alert .alert-info .text-justify}
 ## Object and reference
-```java
+{% highlight java %}
 Car audi = new Car();
 audi.doors = 4;
 audi.color = "red";
-```
+{% endhighlight %}
 **new Car()** - This is new object Car class.
 and a reference is **audi**
 The object is new Car() which holds all informations about object (car).
@@ -22,23 +22,23 @@ The reference is audi because it allows identify specified object (car).
 Example:
 Whe have a two objects Car class:
 
-```java
+{% highlight java %}
 Car opel = new Car();
 opel.doors = 2;
 Car bmw = new Car();
 bmw.doors = 4;
-```
+{% endhighlight %}
 And thanks the reference computer (compiler) can find the place where it is saved specific object (car) in computer memory. The object which we want use.
 {: .alert .alert-info .text-justify}
 Example:
-```java
+{% highlight java %}
 System.out.println(bmw.doors);
-```
+{% endhighlight %}
 And computer know what Car class object to use. So in this case bmw. 
 
 ## Constructor
 Constructor must have same name as class.
-```java
+{% highlight java %}
 class Car(){
 	int doors;
 	String color;
@@ -49,11 +49,11 @@ class Car(){
 		color = carColor;
 	}
 }
-```
+{% endhighlight %}
 And, now we want create new object Car class:
-```java
+{% highlight java %}
 Car opel = new Car(4, "black");
-```
+{% endhighlight %}
 Thnaks the constructor we can create new object using the less code. Great!
 Now, when we have a constructor, creating object we must type in doors and color. If we dont do this IDE will indicate error and the code will not compile.
 {: .alert .alert-info .text-justify}
