@@ -15,8 +15,8 @@ Car audi = new Car();
 audi.doors = 4;
 audi.color = "red";
 ```
-** new Car() ** - This is new object Car class.
-and a reference is ** audi **
+**new Car()** - This is new object Car class.
+and a reference is **audi**
 The object is new Car() which holds all informations about object (car).
 The reference is audi because it allows identify specified object (car).
 Example:
@@ -59,4 +59,4 @@ Now, when we have a constructor, creating object we must type in doors and color
 {: .alert .alert-info .text-justify}
 And again managed to us cut our code. 
 
-** Ok, I go back to leran :D **
+**Ok, I go back to leran :D**
